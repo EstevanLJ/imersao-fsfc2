@@ -14,8 +14,8 @@ go mod init github.com/codeedu/imersaofsfc2-simulator
 ```
 
 ## Ver mensagens em um topico
-```kafka-console-consumer --bootstrap-server=localhost:9092 --topic=readtest```
+```kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position```
 
 ## Mandar mensages para um topico
-```kafka-console-producer --bootstrap-server=localhost:9092 --topic=readtest```
+```kafka-console-producer --bootstrap-server=localhost:9092 --topic=route.new-direction```
 
